@@ -4,7 +4,7 @@ def reverse_each_word(string)
     x = array.index(word)
     array[x] = word.reverse
   end
-  return array
+  return array.join
 end
 
 def reverse_each_word(string)
@@ -13,5 +13,5 @@ def reverse_each_word(string)
     x = array.index(word)
     array[x] = word.reverse
   end
-  return array
+  return array.join
 end
