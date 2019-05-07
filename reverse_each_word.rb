@@ -3,7 +3,7 @@ def reverse_each_word(string)
   array.each do |word|
     x = word.reverse
     array.shift
-    array.unshift(x)
+    array.push(x)
   end
   return array
 end
